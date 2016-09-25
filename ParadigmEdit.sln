@@ -1,0 +1,31 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ParadigmEdit", "http://localhost/ParadigmEdit/1.0/ParadigmEdit.vbproj", "{A8CF6608-831E-4D62-9E9D-95E899306EAF}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {F73C696D-9CE4-49FF-B803-98C1AA35AF6F}
+		SccProjectUniqueName1 = http://localhost/ParadigmEdit/1.0/ParadigmEdit.vbproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectEnlistmentChoice1 = 2
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{A8CF6608-831E-4D62-9E9D-95E899306EAF}.Debug.ActiveCfg = Debug|.NET
+		{A8CF6608-831E-4D62-9E9D-95E899306EAF}.Debug.Build.0 = Debug|.NET
+		{A8CF6608-831E-4D62-9E9D-95E899306EAF}.Release.ActiveCfg = Release|.NET
+		{A8CF6608-831E-4D62-9E9D-95E899306EAF}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,118 @@
+input, select, textarea {
+	background-color: #111;
+	border: 1px solid #579;
+	color: #fff;
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 9pt;
+	margin: 0px;
+	padding: 0px 2px 0px 2px;
+}
+input {
+	background-image: url(../images/gradient.aspx?c1=333&c2=012&w=1&h=15&d=ttb);
+}
+select {
+	background-color: #222;
+	/*background-image: url(../images/gradient.aspx?c1=333&c2=012&w=1&h=80&d=ttb);*/
+}
+option {
+	/*background-color: #111; #579;*/
+	border-bottom: 1px solid #333;
+	cursor: pointer;
+	margin: 0px;
+}
+option.choose {
+	text-align: center;	
+	font-weight: bold;
+	border-bottom: 1px solid #fff;
+	background-color: #357;
+}
+input.file {
+	border: 2px inset #357;
+	background-image: none;
+	padding: 1px 0px 1px 0px;
+	background-color: 222;
+	font-size: 8pt;
+}
+img.button, input.button { border: none; }
+input[type="file"] { }
+
+textarea.share {
+	height: 100px;
+	background-image: url(../images/gradient.aspx?c1=333&c2=012&w=1&h=110&d=ttb);
+	padding: 2px;
+}
+
+.nav {
+	text-align: right;
+	padding-top: 15px;
+	border-left: 1px solid #357;
+	margin-left: 9px;
+	width: 70%;
+}
+.note {
+	position: relative;
+	float: right;
+	width: 25%;
+	border: 1px solid #666;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+.fieldNote {
+	font-size: 8pt;
+	color: #777;
+	padding-left: 3px;
+}
+#emailNote, #passwordNote, #tbSignup, #trConfirmation, #trPasswordAgain {
+	display: none;
+}
+
+.note .body {
+	position: relative;
+	margin: 3px;
+	padding: 4px;
+	background-color: #333;
+	font-size: 11pt;
+	text-align: center;
+	color: #999;
+	background-image: url(../images/gradient.aspx?c1=4a4a4a&c2=333&w=1&h=100&d=ttb);
+	background-repeat: repeat-x;
+}
+.formSection {
+	width: 70%;
+	margin: 30px 4px 0px 10px;
+	position: relative;
+	border-top: 1px solid #357;
+	border-left: 1px solid #357;
+}
+.formSection td {
+	padding: 2px 2px 2px 6px;
+	vertical-align: top;
+	font-size: 10pt;
+}
+.formSection td select { width: 200px; }
+.formSection tr.top td { padding-top: 10px; }
+
+.required {
+	color: #fa0;
+}
+
+.error {
+	border-color: #f00 !important;
+}
+a.listAction {
+	vertical-align: top;
+	margin-left: 6px;
+}
+.label {
+	text-align: right;
+	padding-right: 3px;
+	padding-top: 2px;
+	white-space: nowrap;
+	font-size: 10pt;
+	width: 10%;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./images/solid.aspx?c=357&a=50', sizingMethod='scale');
+	background: url(../images/blank.gif); }
+	/* handle IE problems */
+	body > * .label { background-image: url(../images/solid.aspx?c=357&a=50); filter: none;
+}
+#or { font-size: 10pt; font-weight: bold; padding-bottom: 7px; }

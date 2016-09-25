@@ -1,0 +1,73 @@
+.searchMatches {
+	display: block;
+	font-family: Trebuchet MS, Tahoma, Arial;
+	font-size: 20pt;
+	color: #468;
+}
+table.search {
+	margin: 0px 0px 20px 0px;
+	font-size: 10pt;
+}
+table.search td {
+	vertical-align: top;
+}
+.views {
+	font-size: 8pt;
+	color: #777;
+	padding-bottom: 4px;
+} 
+.searchLeft {
+	width: 140px;
+	vertical-align: top;
+	text-align: right;
+}
+.searchRight {
+	padding-left: 8px;
+}
+.searchHeader {
+	margin-bottom: 8px;
+}
+.searchName {
+	font-family: Trebuchet MS, Tahoma, Arial;
+	font-size: 12pt;
+	top: 0px;
+	margin: 4px 0px 6px 0px;
+}
+.searchName a {
+	color: white;	
+}
+.searchDate {
+	display: inline;
+	margin-left: 20px;
+	color: #d93;
+}
+.searchAuthor {
+	float: right;
+	font-weight: bold;	
+}
+.searchTaxonomy {
+	vertical-align: bottom !important;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #357;
+}
+.searchActions {
+	vertical-align: bottom !important;
+	border-bottom: 1px solid #357;
+	text-align: right;
+	padding: 4px 0px 15px 0px;
+}
+.searchCategories {
+	color: #8ac;
+	margin-left: 8px;
+	width: 80%;
+}
+.searchCategories .category {
+	color: #db9;
+	white-space: nowrap;	
+}
+.searchCategories .category a {
+	color: #db9;
+}
+.highlight {
+	color: #ff6;
+}

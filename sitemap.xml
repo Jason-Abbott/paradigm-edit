@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<siteMap>
+    <siteMapNode title="About Us" url="">
+		<siteMapNode title="Staff" url="default.aspx" />
+		<siteMapNode title="History" url="default.aspx" />
+		<siteMapNode title="Contact" url="default.aspx" />
+    </siteMapNode>
+	<siteMapNode title="Tips" url="">
+		<siteMapNode title="Tip 1" url="default.aspx"/>
+		<siteMapNode title="Tip 2" url="default.aspx" />
+    </siteMapNode>
+    <siteMapNode title="Services" url="">
+		<siteMapNode title="Editing" url="default.aspx" />
+		<siteMapNode title="And such" url="default.aspx" />
+    </siteMapNode>
+</siteMap>

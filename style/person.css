@@ -1,0 +1,58 @@
+.picture {
+	float: right;
+	border: 1px solid #357;	
+}
+.personName {
+	font-family: Trebuchet MS, Tahoma, Arial;
+	margin-bottom: 10px;
+}
+.displayName {
+	font-size: 24pt;
+	line-height: 18pt;
+}
+.realName {
+	font-size: 12pt;
+	line-height: 10pt;
+	color: #999;
+	display: block;
+	margin-left: 10px;
+}
+.links {
+	margin-left: 10px;
+	font-size: 10pt;
+}
+.email {
+	display: block;
+}
+.website {
+	display: block;
+	color: #999;
+}
+.personDescription {
+	display: block;
+	margin-top: 20px;	
+}
+.resourceLabel {
+	display: block;
+	margin: 10px 0px 3px 10px;
+	font-size: 10pt;
+	color: #666;
+	width: 175px;
+}
+.resources {
+	margin-left: 10px;
+	padding-top: 2px;
+	overflow: auto;
+	height: auto;
+	font-size: 8pt;
+	border: 1px solid #357;
+	border-bottom: none;
+	width: 175px;
+}
+.resource {
+	margin-bottom: 0px;
+	padding: 0px 3px 2px 3px;
+	border-bottom: 1px solid #357;
+}
+.resource a { border-bottom: none; }
+.resource a:hover { color: white; }

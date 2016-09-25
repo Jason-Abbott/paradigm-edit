@@ -1,0 +1,751 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Web"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{A8CF6608-831E-4D62-9E9D-95E899306EAF}"
+        SccProjectName = "SAK"
+        SccLocalPath = "SAK"
+        SccAuxPath = "SAK"
+        SccProvider = "SAK"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "AMP.ParadigmEdit"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Flow"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "On"
+                RootNamespace = "AMP"
+                StartupObject = "AMP.(None)"
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Configuration" />
+                <Import Namespace = "System.Data" />
+                <Import Namespace = "System.Drawing" />
+                <Import Namespace = "System.Web" />
+                <Import Namespace = "System.Web.UI" />
+                <Import Namespace = "System.Web.UI.HtmlControls" />
+                <Import Namespace = "System.Web.UI.WebControls" />
+                <Import Namespace = "AMP" />
+                <Import Namespace = "AMP.Debug" />
+                <Import Namespace = "AMP.Global" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "default.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "default.aspx.vb"
+                    DependentUpon = "default.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "default.aspx.resx"
+                    DependentUpon = "default.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.vb"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "host.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "host.home.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "host.idcl.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "host.pe.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "host.sisna.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "language.resx"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "privacy.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "privacy.aspx.vb"
+                    DependentUpon = "privacy.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "privacy.aspx.resx"
+                    DependentUpon = "privacy.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "sitemap.xml"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "code\Common.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\Debug.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\Draw.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\Email.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\Format.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\ImageHandler.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\Locale.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\Log.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\Page.vb"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\Profile.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\Schedule.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\Security.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\control\Button.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\control\Content.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\control\Controls.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\control\Corner.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\control\EnumList.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\control\Flash.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\control\Form.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\control\HtmlControl.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\control\Image.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\control\ISelect.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\control\ListBox.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\control\Menu.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\control\Note.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\control\Rating.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\control\Repeater.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\control\SelectList.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\control\Star.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\control\Toggle.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\control\Validation.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\control\WebPart.vb"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\data\Base.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\data\File.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\data\Jet.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\data\Mapping.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\data\Migration.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\data\Query.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\data\Serialization.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\data\Sql.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\data\Xml.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\entity\Address.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\entity\AddressCollection.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\entity\Category.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\entity\CategoryCollection.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\entity\Company.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\entity\File.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\entity\Link.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\entity\PermissionCollection.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\entity\Person.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\entity\PersonCollection.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\entity\Publisher.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\entity\PublisherCollection.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\entity\Role.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\entity\RoleCollection.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "code\entity\Site.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "content\mission.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "content\origin.txt"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "content\Paradigm Website.doc"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "content\terms.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "content\welcome.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "content\e-mail\ConfirmationCode.txt"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "content\e-mail\Error.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "content\e-mail\Error.txt"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "content\e-mail\ForgotPassword.txt"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "content\e-mail\ResourceApproved.txt"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "control\Feature.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "control\Feature.ascx.vb"
+                    DependentUpon = "Feature.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "control\Feature.ascx.resx"
+                    DependentUpon = "Feature.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "control\LoginRegister.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "control\LoginRegister.ascx.vb"
+                    DependentUpon = "LoginRegister.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "control\LoginRegister.ascx.resx"
+                    DependentUpon = "LoginRegister.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "control\Quote.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "control\Quote.ascx.vb"
+                    DependentUpon = "Quote.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "control\Quote.ascx.resx"
+                    DependentUpon = "Quote.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "data\features.xml"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "data\quotes.xml"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "data\VASST.dat"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "images\blank.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\getfirefox.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\getfirefox_on.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\gradient.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\gradient.aspx.vb"
+                    DependentUpon = "gradient.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "images\gradient.aspx.resx"
+                    DependentUpon = "gradient.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "images\solid.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\solid.aspx.vb"
+                    DependentUpon = "solid.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "images\solid.aspx.resx"
+                    DependentUpon = "solid.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "images\xhtml.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\xhtml10.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\xhtml10_on.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\logo\logo.png"
+                    BuildAction = "Content"
+                />
+                <Folder RelPath = "images\raw\" />
+                <File
+                    RelPath = "images\templates\bluebevel.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\templates\bluebevel_on.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\templates\button.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\templates\button_on.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "script\common.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "script\cookies.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "script\form.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "script\login.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "script\menu.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "script\webpart.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "script\broker\common.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "script\broker\login.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "script\validation\common.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "script\validation\login.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "script\validation\share.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "style\asset.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "style\contest.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "style\form.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "style\menu.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "style\NewsPaper.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "style\person.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "style\search.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "style\ThreeColumn.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "style\webpart.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "template\NewsPaper.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "template\NewsPaper.ascx.vb"
+                    DependentUpon = "NewsPaper.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "template\NewsPaper.ascx.resx"
+                    DependentUpon = "NewsPaper.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "template\ThreeColumn.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "template\ThreeColumn.ascx.vb"
+                    DependentUpon = "ThreeColumn.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "template\ThreeColumn.ascx.resx"
+                    DependentUpon = "ThreeColumn.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+

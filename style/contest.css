@@ -1,0 +1,56 @@
+.contestName {
+	font-family: Trebuchet MS, Tahoma, Arial;
+	font-size: 18pt;
+	margin-bottom: 10px;
+}
+.contestDescription {
+	display: block;
+	margin-top: 20px;	
+}
+.voteStatus {
+	display: block;
+	margin-top: 20px;
+	font-family: Trebuchet MS, Tahoma, Arial;
+	font-size: 14pt;
+	text-align: center;
+	margin-bottom: 5px;
+	color: #ddd;
+}
+.winners {
+	width: 100%;
+}
+.winners td {
+	padding-bottom: 9px;
+	font-size: 10pt;
+	color: #999;
+}
+.winners .assetName {
+	text-align: right;
+	font-size: 10pt;
+	width: 10%;
+	white-space: nowrap;
+	padding-right: 4px;
+	line-height: 8pt;
+}
+.winners .graph {
+	/*background-color: #357;*/
+	color: #79b;
+	height: 13px;
+	line-height: 9pt;
+	text-align: center;
+	font-size: 9pt;
+	font-weight: bold;
+	border-top: 1px solid #68a;
+	border-left: 1px solid #357;
+	border-bottom: 1px solid #012;
+	border-right: 1px solid #012;
+	background-image: url(../images/gradient.aspx?c1=468&c2=012&w=1&h=13&d=ttb);
+	background-repeat: repeat-x;
+	float: left;
+	margin-right: 4px;
+}
+#btnEdit {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}

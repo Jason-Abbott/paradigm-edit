@@ -1,0 +1,125 @@
+.assetMeta {
+	float: right;
+	margin-top: 8px;
+	width: 155px;
+	text-align: right;
+}
+.assetRating {
+ 
+}
+.assetViews {
+	text-align: right;
+	font-size: 11pt;
+	white-space: nowrap;
+	margin-right: 5px;
+	font-weight: bold;
+	color: #999;
+}
+.assetCategories {
+	font-size: 10pt;
+	margin-top: 6px;
+	font-weight: bold;
+	color: #8ac;
+}
+.assetCategories ul {
+	margin-right: 3px;
+	margin-top: 2px;
+	font-weight: normal;
+	list-style-type: square;
+}
+.assetCategories ul li span {
+	color: #fdb;	
+}
+.assetCategories ul li span a {
+	color: #fdb;	
+}
+.assetType {
+	font-family: Trebuchet MS, Tahoma, Arial;
+	display: block;
+	font-size: 13pt;
+	font-weight: bold;
+	margin-left: 15px;
+	color: #aaa;
+}
+.assetName {
+	display: block;
+	font-family: Trebuchet MS, Tahoma, Arial;
+	font-size: 24pt;
+	margin: 0px 0px 4px 0px;
+	padding: 0px;
+	line-height: 30px;
+}
+.assetAuthor {
+	display: inline;
+	font-family: Trebuchet MS, Tahoma, Arial;
+	font-size: 16pt;
+	margin-left: 15px;
+}
+.assetDate {
+	font-size: 10pt;
+	padding-left: 5px;
+	display: inline;
+	color: #666;
+}
+.assetAction {
+	position: absolute;
+	right: 10px;
+	top: 4px;
+	white-space: nowrap;
+}
+.assetDescription {
+	display: block;
+	font-family: Tahoma;
+	font-size: 12pt;
+	margin: 15px 0px 0px 7px;
+}
+/* new comment */
+.saveComment {
+	float: right;
+}
+.newComment {
+	margin-top: 25px;
+	font-size: 11pt;
+}
+.newComment #label {
+	vertical-align: bottom;
+	margin-left: 3px;
+}
+.newComment textarea {
+	display: block;
+	width: 98%;
+	padding: 3px;
+	margin: 2px 5px 0px 2px;
+}
+/* comments */
+.assetComments {
+	width: 100%;
+	margin: 8px 0px 8px 0px;
+}
+tr.comment {
+	font-size: 11pt;
+	padding-bottom: 8px;
+	
+}
+.comment .about {
+	font-size: 10pt;
+	text-align: right;
+	vertical-align: top;
+	margin-right: 8px;
+	width: 90px;
+	border-bottom: 1px solid #579;
+	padding: 4px 0px 4px 0px;
+}
+.comment .text {
+	vertical-align: top;
+	padding-left: 8px;
+	border-bottom: 1px solid #579;
+	padding-bottom: 4px;
+}
+.comment .date {
+	float: right;
+	color: #bbb;
+	font-size: 10pt;
+	margin-left: 8px;
+}
+
